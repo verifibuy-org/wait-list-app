@@ -3,8 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="content-container">
+    <div className="content-container">
           <div className="logo-container">
               <img src={logo} alt="Kokorko Logo" />
           </div>
@@ -15,12 +14,11 @@ function App() {
                       Be the first to experience Kokorko Marketplace! <br/> Sign up now with your phone number or email to stay updated and get exclusive early access
                   </p>
               </div>
-              <div className="form-container">
+              <div className="button-container">
                   <a href="https://form.jotform.com/242534443859060" target="_blank" rel='noopener noreferrer' class="btn">I'm in</a>
               </div>
           </div>
       </div>
-    </div>
   );
 }
 
