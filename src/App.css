@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     height: fit-content;
     margin: 0 auto;
-    background: linear-gradient(270deg, #2C90F8 24.33%, #1A5592 122.29%);
+    background: linear-gradient(270deg, #e1ebf7 24.33%, #90c2f8 122.29%);
     box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
     -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
@@ -44,12 +44,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background: rgba( 255, 255, 255, 0.15 );
+    /* background: rgba( 255, 255, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 1px );
     -webkit-backdrop-filter: blur( 1px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
   }
   
   .text-container h1 {
@@ -65,6 +65,22 @@ body {
     text-align: justify;
     word-spacing: normal;
     padding: 0 1rem;
+  }
+
+  .image-container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* border-radius: 1rem; */
   }
   
   .button-container {
@@ -111,13 +127,15 @@ body {
   
 }
 
-@media screen and (min-width: 769px) {
+/* larger screen */
+
+/* @media screen and (min-width: 769px) {
   .content-container {
       width: 100%;
       min-height: 100vh;
       height: fit-content;
       margin: 0 auto;
-      background: linear-gradient(270deg, #2C90F8 24.33%, #1A5592 122.29%);
+      background: linear-gradient(270deg, #e1ebf7 24.33%, #90c2f8 122.29%);
       box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
       -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
       -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
@@ -203,10 +221,10 @@ body {
       outline: 1px solid white;
       background: #ffad33;
   }
-}
+} */
 
 /* 3d balls effect */
-.ball {
+/* .ball {
 	display: block;
 	width: 150px;
 	height: 150px;
@@ -230,4 +248,4 @@ body {
   right: 10rem;
   bottom: 6rem;
   background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);  
-}
+} */
