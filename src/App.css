@@ -194,9 +194,9 @@ body {
     height: fit-content;
     margin: 0 auto;
     background: linear-gradient(270deg, #e1ebf7 24.33%, #90c2f8 122.29%);
-    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
+    /* box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
     -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
-    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46); */
   }
   
   .logo-container {
