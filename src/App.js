@@ -1,10 +1,11 @@
 import logo from './assets/Footer Logo.svg';
 import './App.css';
 import phoneImage from './assets/android-mobile.png'
-import { RiSecurePaymentLine } from "react-icons/ri";
+// import { RiSecurePaymentLine } from "react-icons/ri";
 // import { TbShoppingCartCog } from "react-icons/tb";
 import { MdOutlineAddBusiness } from "react-icons/md";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
+import { MdOutlinePayments } from "react-icons/md";
 
 function App() {
     return (
@@ -30,7 +31,8 @@ function App() {
                         <h2>What to expect</h2>
                         <div className='cards'>
                             <div className='card'>
-                                <RiSecurePaymentLine color='#ff0000' size='3rem'/>
+                                {/* <RiSecurePaymentLine color='#ff0000' size='3rem'/> */}
+                                <MdOutlinePayments color='#ff0000' size='3rem' />
                                 <p>
                                     Payments stay secure until you're happy with what you get.
                                     We keep your money safe with VBuy.
