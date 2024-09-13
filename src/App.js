@@ -1,6 +1,9 @@
 import logo from './assets/Footer Logo.svg';
 import './App.css';
 import phoneImage from './assets/android-mobile.png'
+import { RiSecurePaymentLine } from "react-icons/ri";
+import { TbShoppingCartCog } from "react-icons/tb";
+import { MdOutlineAddBusiness } from "react-icons/md";
 
 function App() {
     return (
@@ -22,18 +25,27 @@ function App() {
                     <div className='text'>
                         <h2>What to expect</h2>
                         <div className='cards'>
-                            <p>
-                                Payments stay secure until you're happy with what you get.
-                                We keep your money safe with VBuy.
-                            </p>
-                            <p> 
-                                Sellers can connect their social media channels to keep 
-                                things flowing smoothly across their online stores.
-                            </p>
-                            <p>
-                                Easy to use, easy to scale. We're here to help you level up your hustle!
-                                With user friendly interface, built with you in mind.
-                            </p>
+                            <div className='card'>
+                                <RiSecurePaymentLine color='#ff0000' size='3rem'/>
+                                <p>
+                                    Payments stay secure until you're happy with what you get.
+                                    We keep your money safe with VBuy.
+                                </p>
+                            </div>
+                            <div className='card'>
+                                <TbShoppingCartCog color='#7575a3' size='3rem'/>
+                                <p> 
+                                    Sellers can connect their social media channels to keep 
+                                    things flowing smoothly across their online stores.
+                                </p>
+                            </div>
+                            <div className='card'>
+                                <MdOutlineAddBusiness color='#3333ff' size='3rem' />
+                                <p>
+                                    Easy to use, easy to scale. We're here to help you level up your hustle!
+                                    With user friendly interface, built with you in mind.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className='cta'>

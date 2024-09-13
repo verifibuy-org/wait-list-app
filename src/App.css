@@ -34,7 +34,7 @@ body {
     height: fit-content;
     margin: 0 auto;
     margin-top: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
   }
   
   .text-container {
@@ -65,7 +65,7 @@ body {
     font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1rem;
     text-align: justify;
-    word-spacing: normal;
+    word-spacing: 0.01rem;
     padding: 0 1rem;
     color: #001a4d;
   }
@@ -83,6 +83,43 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
+  }
+
+  .text h2 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
+  }
+
+  .text p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .cards {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .cards .card {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.2rem;
   }
   
   .button-container {
