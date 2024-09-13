@@ -26,7 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 0.8rem 0;
+    padding: 1rem 0;
   }
   
   .content {
@@ -34,6 +34,7 @@ body {
     height: fit-content;
     margin: 0 auto;
     margin-top: 4rem;
+    padding-bottom: 3rem;
   }
   
   .text-container {
@@ -54,9 +55,10 @@ body {
   
   .text-container h1 {
     font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-align: center;
+    color: #800000;
   }
   
   .text-container p {
@@ -80,7 +82,6 @@ body {
     width: 100%;
     height: auto;
     object-fit: cover;
-    /* border-radius: 1rem; */
   }
   
   .button-container {
