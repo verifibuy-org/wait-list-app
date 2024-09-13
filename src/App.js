@@ -2,8 +2,9 @@ import logo from './assets/Footer Logo.svg';
 import './App.css';
 import phoneImage from './assets/android-mobile.png'
 import { RiSecurePaymentLine } from "react-icons/ri";
-import { TbShoppingCartCog } from "react-icons/tb";
+// import { TbShoppingCartCog } from "react-icons/tb";
 import { MdOutlineAddBusiness } from "react-icons/md";
+import { MdOutlineAddShoppingCart } from "react-icons/md";
 
 function App() {
     return (
@@ -36,7 +37,8 @@ function App() {
                                 </p>
                             </div>
                             <div className='card'>
-                                <TbShoppingCartCog color='#7575a3' size='3rem'/>
+                                {/* <TbShoppingCartCog color='#7575a3' size='3rem'/> */}
+                                <MdOutlineAddShoppingCart color='#7575a3' size='3rem' />
                                 <p> 
                                     Sellers can connect their social media channels to keep 
                                     things flowing smoothly across their online stores.
