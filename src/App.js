@@ -14,15 +14,18 @@ function App() {
             {/* <div class="ball b1"></div> */}
             <div className="content">
                 <div className='text-container'>
-                    <div className='text'>
-                        <h1>Ready to shop and sell with zero stress?</h1>
-                        <p>Kokorko is set to revolutionize the ecommerce 
-                            space in Ghana and beyond.</p>
+                    <div className='top'>
+                        <div className='top-text'>
+                            <h1>Ready to shop and sell with zero stress?</h1>
+                            <p>Kokorko is set to revolutionize the ecommerce 
+                                space in Ghana and beyond.</p>
+                        </div>
+                        <div className='image-container'>
+                            <img src={phoneImage} alt="Phone" />
+                        </div>
                     </div>
-                    <div className='image-container'>
-                        <img src={phoneImage} alt="Phone" />
-                    </div>
-                    <div className='text'>
+                    <hr className='line'/>
+                    <div className='bottom-text'>
                         <h2>What to expect</h2>
                         <div className='cards'>
                             <div className='card'>

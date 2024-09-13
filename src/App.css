@@ -33,7 +33,7 @@ body {
     width: 90%;
     height: fit-content;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-bottom: 6rem;
   }
   
@@ -41,33 +41,9 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 5rem;
-    color: white;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    /* background: rgba( 255, 255, 255, 0.15 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 1px );
-    -webkit-backdrop-filter: blur( 1px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
-  }
-  
-  .text-container h1 {
-    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-align: center;
-    color: #800000;
-  }
-  
-  .text-container p {
-    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1rem;
-    text-align: justify;
-    word-spacing: 0.01rem;
-    padding: 0 1rem;
-    color: #001a4d;
   }
 
   .image-container {
@@ -85,7 +61,16 @@ body {
     object-fit: cover;
   }
 
-  .text h2 {
+  .top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-text h1 {
     font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -93,8 +78,26 @@ body {
     color: #800000;
   }
 
-  .text p {
+  .top-text p {
     font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    word-spacing: 0.01rem;
+    padding: 0 1rem;
+    color: #001a4d;
+  }
+
+  .bottom-text h2 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
+  }
+
+  .bottom-text p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #001a4d;
   }
 
   .cards {
@@ -120,6 +123,20 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.7rem 1.2rem;
+  }
+
+  .cta {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .cta p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
   }
   
   .button-container {
@@ -166,58 +183,138 @@ body {
   
 }
 
+
+
 /* larger screen */
 
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .content-container {
-      width: 100%;
-      min-height: 100vh;
-      height: fit-content;
-      margin: 0 auto;
-      background: linear-gradient(270deg, #e1ebf7 24.33%, #90c2f8 122.29%);
-      box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
-      -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
-      -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    margin: 0 auto;
+    background: linear-gradient(270deg, #e1ebf7 24.33%, #90c2f8 122.29%);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.46);
   }
   
   .logo-container {
-      width: 50%;
-      height: 10%;
-      padding: 0.8rem 0 0.5rem 1.5rem;
+    width: 50%;
+    height: 10%;
+    padding: 0.8rem 0 0.5rem 1.5rem;
+    margin-left: 2.2rem;
   }
   
   .content {
-      width: 70%;
-      height: fit-content;
-      margin: 0 auto;
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+  }
+
+  .cards {
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .cards .card {
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1.2rem;
   }
   
   .text-container {
-      width: 100%;
-      height: 80%;
-      margin-bottom: 5rem;
-      color: white;
-      background: rgba( 255, 255, 255, 0.15 );
-      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 1px );
-      -webkit-backdrop-filter: blur( 1px );
-      border-radius: 10px;
-      border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    height: 80%;
+    margin-bottom: 5rem;
+    /* color: white; */
+  }
+
+  .top {
+    width: 100%;
+    height: 60dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .image-container {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .text {
+    width: 40%;
+  }
+
+  .top-text h1 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
+  }
+
+  .top-text p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    word-spacing: 0.01rem;
+    padding: 0 1rem;
+    color: #001a4d;
+  }
+
+  .bottom-text h2 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
+  }
+
+  .bottom-text p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #001a4d;
+  }
+
+  .cta {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .cta p {
+    font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #800000;
   }
   
-  .text-container h1 {
-      font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 3rem;
-      font-weight: 600;
-      text-align: center;
-  }
-  
-  .text-container p {
-      font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: 1.5rem;
-      text-align: justify;
-      padding:0 1rem ;
-  }
   
   .button-container {
       width: 50%;
@@ -260,7 +357,7 @@ body {
       outline: 1px solid white;
       background: #ffad33;
   }
-} */
+}
 
 /* 3d balls effect */
 /* .ball {
