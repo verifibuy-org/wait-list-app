@@ -13,10 +13,33 @@ function App() {
                 <div className='text-container'>
                     <div className='text'>
                         <h1>Ready to shop and sell with zero stress?</h1>
-                        <p></p>
+                        <p>Kokorko is set to revolutionize the ecommerce 
+                            space in Ghana and beyond.</p>
                     </div>
                     <div className='image-container'>
                         <img src={phoneImage} alt="Phone" />
+                    </div>
+                    <div className='text'>
+                        <h2>What to expect</h2>
+                        <div className='cards'>
+                            <p>
+                                Payments stay secure until you're happy with what you get.
+                                We keep your money safe with VBuy.
+                            </p>
+                            <p> 
+                                Sellers can connect their social media channels to keep 
+                                things flowing smoothly across their online stores.
+                            </p>
+                            <p>
+                                Easy to use, easy to scale. We're here to help you level up your hustle!
+                                With user friendly interface, built with you in mind.
+                            </p>
+                        </div>
+                    </div>
+                    <div className='cta'>
+                        <p>
+                            Sign up now to be first in line for awesome deals, social selling, and a shopping experience that's all about fun, trust, and great finds!
+                        </p>
                     </div>
                 </div>
                 {/* <div class="ball b2"></div> */}
